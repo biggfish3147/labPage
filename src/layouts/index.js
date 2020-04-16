@@ -1,4 +1,4 @@
-import { Layout } from 'antd';
+import { Layout, Carousel } from 'antd';
 import style from './index.css';
 
 const { Header, Footer, Content } = Layout;
@@ -16,7 +16,11 @@ function BasicLayout(props) {
           Hi! Welcome to 808!
         </Header>
         <Content className={ style.content }>
-          content
+          <Carousel autoplay className={ style.carousel }>
+            <div>1深度学习nb啊</div>
+            <div>2pacs是啥啊</div>
+            <div>3ocr教教我把</div>
+          </Carousel>
           { props.children }
         </Content>
         <Footer className={ style.footer }>

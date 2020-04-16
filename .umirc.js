@@ -31,9 +31,6 @@ export default {
           /components\//,
         ],
       },
-      theme: {
-        "primary-color": "#7dbcea",
-      },
     }],
   ],
 }
